@@ -6,7 +6,7 @@ It is same as Npcap and libpcap bpf program string filter
 Example : port 80, tcp port 80
 
 
-#UI
+# Interface
 ![interface](https://github.com/RuiTheSaltyFish/networkcap/assets/121046801/2cbb2da3-d90d-4484-acf8-c511eb08d9a0)
 
 
