@@ -11,4 +11,4 @@ Example : port 80, tcp port 80
 
 
 # Known Issues
-Some time will throw string too long exception, may cause by casting to string of the packet.
+Some time will throw string too long exception, may cause by casting the u_char packet to string.
