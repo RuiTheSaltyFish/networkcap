@@ -1,18 +1,8 @@
 {
-    "name":"networkcap",
-    "version":"0.1.0",
-    "dependencies":[
-        {
-            "name":"fmt",
-            "version>=":"10.1.1"
-        },
-        {
-            "name":"glfw3",
-            "version>=":"3.3.8"
-        },
-        {
-            "name":"opengl",
-            "version>=":"2022-12-04"
-        }
-    ]
+    "name": "networkcap",
+    "version": "0.1.0",
+    "dependencies": [ "fmt","opengl",{
+        "name": "imgui",
+        "features": [ "docking-experimental" ]
+      },"glfw3"]
 }

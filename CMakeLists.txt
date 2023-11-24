@@ -20,6 +20,5 @@ add_executable(NETWORKCAP ${SOURCES})
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 
-target_link_libraries(NETWORKCAP PRIVATE imgui::imgui OpenGL::GL glfw fmt::fmt)
-target_link_libraries(NETWORKCAP PUBLIC Packet.lib wpcap.lib)
+target_link_libraries(NETWORKCAP imgui::imgui OpenGL::GL glfw fmt::fmt Packet.lib wpcap.lib)
 
