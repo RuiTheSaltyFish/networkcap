@@ -5,7 +5,7 @@ This is a c++ pratice project for using Npcap and Imgui to create a network pack
 Make Sure you have Npcap window installed
 https://npcap.com/#download
 
-#Filter Expersion
+# Filter Expersion
 It is same as Npcap and libpcap bpf program string filter
 Example : port 80, tcp port 80
 
