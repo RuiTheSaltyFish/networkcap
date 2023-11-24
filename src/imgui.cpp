@@ -53,6 +53,9 @@ int main(int, char**)
     if (!glfwInit())
         return 1;
 
+#ifdef _WIN32
+    #pragma comment(linker, "/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")
+#endif
     // Decide GL+GLSL versions
 #if defined(IMGUI_IMPL_OPENGL_ES2)
     // GL ES 2.0 + GLSL 100

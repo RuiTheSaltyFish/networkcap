@@ -16,7 +16,6 @@ find_package(fmt CONFIG REQUIRED)
 file(GLOB_RECURSE SOURCES "src/*.cpp" "src/headers/*.h" "src/headers/*.hpp" "src/imgui_impl/*.h" "src/imgui_impl/*.cpp")
 
 add_executable(NETWORKCAP ${SOURCES})
-# set_target_properties(NETWORKCAP PROPERTIES LINK_FLAGS "/SUBSYSTEM:WINDOWS")
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 
