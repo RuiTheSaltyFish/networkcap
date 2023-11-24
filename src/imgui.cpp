@@ -170,9 +170,10 @@ int main(int, char**)
         //ImGui::ShowDemoWindow(&show_demo_window);
         
         
+        
+        //Render Custom UI
         RenderComponent::render_card_selection(&pcapc);
         RenderComponent::render_control_button(&pcapc);
-        //Render Custom UI
         RenderComponent::render_capture_table(PcapDataHandler::allPacket);
         
 
