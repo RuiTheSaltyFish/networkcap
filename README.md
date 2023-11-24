@@ -1,6 +1,10 @@
 # Networkcap
 This is a c++ pratice project for using Npcap and Imgui to create a network packet caputer software
 
+# Note
+Make Sure you have Npcap window installed
+https://npcap.com/#download
+
 #Filter Expersion
 It is same as Npcap and libpcap bpf program string filter
 Example : port 80, tcp port 80
