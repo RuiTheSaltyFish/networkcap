@@ -18,3 +18,13 @@ if your compile yourself the start window frame will be small, you can dock by y
 # Known Issues
 Some time will throw string too long exception, may cause by casting the u_char packet to string.
 *still under investigate
+
+# 中文
+# 备注
+请记得在电脑内安装Npcap以确保能够运行
+
+# 过滤表达式
+和libpcap和npcap里的bpf 过滤字符串是一样的
+
+# 现有问题
+在转换pcap数据字节到字符有些数据包会抛出 string too long 异常，目前还在调查中
