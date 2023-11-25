@@ -11,6 +11,7 @@ Example : port 80, tcp port 80
 
 
 # Interface
+if your compile yourself the start window frame will be small, you can dock by yourself how you like the layout by docking.
 ![interface](https://github.com/RuiTheSaltyFish/networkcap/assets/121046801/2cbb2da3-d90d-4484-acf8-c511eb08d9a0)
 
 
