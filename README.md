@@ -27,4 +27,4 @@ Some time will throw string too long exception, may cause by casting the u_char 
 和libpcap和npcap里的bpf 过滤字符串是一样的
 
 # 现有问题
-在转换pcap数据字节到字符有些数据包会抛出 string too long 异常，目前还在调查中
+在转换pcap数据字节到字符有些数据包会抛出 string too long 异常.未解決
